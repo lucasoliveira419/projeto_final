@@ -1,0 +1,220 @@
+/*id*/
+#fund{
+	display:block;
+	width: 450px;
+	height: 500px;
+	border-radius: 20px;
+	background-color:rgb(5, 69, 99);
+	position: relative;
+	z-index: 1;
+	margin-top: 75px;
+	margin-left: 32.5%;
+	
+	}
+
+#fund2{
+	display:none;
+	width: 450px;
+	height: 500px;
+	border-radius: 20px;
+	background-color:rgb(5, 69, 99);
+	position: relative;
+	z-index: 1;
+	margin-top: 75px;
+	margin-left: 30%;
+	margin-bottom: 75px;
+	
+	}	
+#fundrec{
+	display:none;
+	width: 450px;
+	height: 650px;
+	border-radius: 20px;
+	background-color:rgb(5, 69, 99);
+	position: relative;
+	z-index: 1;
+	margin-top: 75px;
+	margin-left: 30%;
+	margin-bottom: 75px;
+	
+	}	
+
+#log{color: white;
+	padding-top: 35%;
+	text-align: center;
+	z-index: 2;
+	position: relative;
+	margin: 0 auto 0;
+}
+#cad{color: white;
+	padding-top: 25%;
+	text-align: center;
+	z-index: 2;
+	position: relative;
+}
+
+#bcad{
+	left: 9px;
+	bottom: -8px;
+	display: none;
+	text-align: center;
+	z-index: 3;
+	position: relative;}
+#login{
+	left: 9px;
+	bottom: -8px;	
+	text-align: center;
+	z-index: 3;
+	position: relative;}
+#rec{
+	color: white;
+	margin: 0 auto 0;
+	padding-top: 30px;
+	left: 9px;
+	bottom: -8px;	
+	text-align: center;
+	z-index: 3;
+	position: relative;}
+#bsen{
+	left: 9px;
+	bottom: -8px;
+	display: none;
+	text-align: center;
+	z-index: 3;
+	position: relative;}
+
+#cadastro{color: white;
+	padding-top: 15%;
+	display: none;
+	text-align: center;
+	z-index: 3;
+	position: relative;
+}
+	
+#senha{color:white;
+	padding-top: 15%;
+	display: none;
+	text-align: center;
+	z-index: 3;
+	position: relative;}
+
+#h1{ font-size: 30px; }
+main{
+	position: relative;
+	width: 99%;
+	height: 100%;
+}
+#corpo{ font-size: 20px;
+	position: relative;
+	top:0px;
+	left: 0px;
+	text-align: justify;
+	width: 1200px;
+	min-height: 100%;
+	display: inline-block;
+	
+	}
+#corpo2{ 
+	position: relative;
+	text-align: justify;
+	width: 70%;
+	margin: 0 auto 0;
+	min-height: 100%;
+}
+
+#requerimentos{ margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(5, 69, 99); }
+
+#menu{
+	z-index: 0;
+	background-color: rgb(5, 69, 99);
+	width: 250px;
+	height: 100%;
+	position: relative;
+	margin-top: 0px;
+	top:-15px;
+	left: 0px;
+	display: inline-block;
+
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+/*tag */
+input{
+	border-radius: 3px;
+	border:none;
+	color:#0b0d0f;
+	background-color:white ;
+}
+
+a {color: white;
+	padding:none;
+	text-decoration: none;
+	font-size: 12px;}
+
+html{
+	height: 90%;
+}
+
+body{ background-color: white; 
+height: 90%;
+}
+
+header{padding-top: 10px;
+	padding-bottom: 10PX; 
+	width: 100%;
+	height: 125px;
+	text-align: center;
+	background-color: rgb(5, 69, 99);
+	color: white;
+}
+
+footer { width: 100%;
+	height: 125px;
+	text-align: center;
+	background-color: rgb(5, 69, 99);
+
+	margin-top: 50px;
+
+
+}
+img{margin-left:-85%;
+	margin-top: 25px;
+	width: 8%;
+	
+	position: relative;}
+
+nav{margin-top: -80px; 
+	margin-left: 800px;}
+li { 
+	
+	display: inline-block;
+	padding-right: 20px;
+	list-style-type: none; }
+
+/*classe*/
+.li{margin-top:50px; 
+	font-size: 20px;
+	text-decoration: none;
+	}
+.professor{display: none;
+	text-align: center;
+	z-index: 3;
+	position: relative;
+color: white;}
+
+.input{width: 300px; 
+	height: 30px;
+text-align: center;
+ }
+#a1 a{position:relative;
+	left: 80%;
+	text-decoration: none;
+	color: white;
+	font-size: 15pt;}

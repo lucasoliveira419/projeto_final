@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<Head lang="pt-br">
+    <Meta charset="utf-8"></Meta>
+    <link rel="stylesheet" href="estilo.css">
+</Head>
+<body>
+
+<header>
+   Pinterest
+   <a href="../index.html" >Home </a>
+</header>
+<section>
+    <a onclick="zoom(1);"><img src="1.jpg" alt=""></a>
+    <a onclick="zoom(2);"><img src="2.jpg" alt=""></a>
+    <a onclick="zoom(3);"><img src="3.jpg" alt=""></a>
+    <a onclick="zoom(4);"><img src="4.jpg" alt=""></a>
+    <a onclick="zoom(5);"><img src="5.jpg" alt=""></a>
+    <a onclick="zoom(6);"><img src="6.jpg" alt=""></a>
+    <a onclick="zoom(7);"><img src="7.jpg" alt=""></a>
+    <a onclick="zoom(8);"><img src="8.jpg" alt=""></a>
+    <a onclick="zoom(9);"><img src="9.jpg" alt=""></a>
+    <a onclick="zoom(10);"><img src="10.jpg" alt=""></a>
+
+</section>
+<section id="zoom" > <input id="amp" onclick="zoom(ima+1);"type="button" value=">"> 
+    <input id="exit" onclick="exit();"type="button" value="x"> 
+    <input id="ant" onclick="zoom(ima-1);"type="button" value="<"> 
+    <img id="maior">
+
+</section>
+<section id="conteiner">
+</section>
+
+<footer>
+   <br>
+</footer>
+</body>
+<script>
+    var ima;
+    function zoom(imagem){ 
+        ima =imagem;
+        if (ima=="10"){ document.getElementById("amp").style.display="none";}
+        else {document.getElementById("amp").style.display="block";}
+        if (ima=="1"){ document.getElementById("ant").style.display="none";}
+        else {document.getElementById("ant").style.display="block";}
+        var x =ima+".jpg";
+        document.getElementById('zoom').style.display="block";
+        document.getElementById('conteiner').style.display="block";
+        document.getElementById("maior").src=x;
+
+        
+    }
+
+    function exit(){ document.getElementById('zoom').style.display="none";
+                    document.getElementById('conteiner').style.display="none";}
+
+</script>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Login </title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+        <script lenguage=javascript type="text/javascript">
+            function log(){
+                window.open("menu.html", "_self");
+            }
+            function cad(){
+                document.getElementById("log").style.display= "none";
+                document.getElementById("cadastro").style.display= "block";
+                document.getElementById("bcad").style.display= "block";
+            }
+            function esq(){
+                document.getElementById("senha").style.display= "block";
+                document.getElementById("log").style.display= "none";
+                document.getElementById("bsen").style.display= "block"}
+            
+            function prof(){
+                document.getElementById("prof").style.display="block"
+            }
+            function prof2(){
+                document.getElementById("profe").style.display="block"
+            }
+            function home_cad(){
+                document.getElementById("log").style.display= "block";
+                document.getElementById("cadastro").style.display= "none";
+                document.getElementById("bcad").style.display= "none";
+                document.getElementById("prof").style.display="none";}
+            
+            function home_sen(){
+                document.getElementById("log").style.display= "block";
+                document.getElementById("senha").style.display= "none";
+                document.getElementById("bsen").style.display= "none";
+                document.getElementById("profe").style.display="none";}
+
+        </script>
+    </head>
+    <body>
+        <header id="a1">
+        <img src="if.png"> 
+        <a href="../index.html">Home</a><br><br><br>
+       
+    
+
+    </nav></header>
+        
+      
+        <div id="fund">
+            <!-- pop up -->
+
+            <section id="log">
+                <h1>Login</h1>
+                <label >Login</label>
+                <input  type="text" required ><br>
+                <Label for="sen"> Senha</Label>
+                <input id="sen" type="password"><br>
+                <a href="#cadastro" onclick="javascript: cad()">Primeiro acesso</a> | 
+                <a href="#senha" onclick="javascript:esq()">Equeci a senha</a><br>
+                <input id="login" type="button" onclick="javascript: log()" value="Login">
+
+            </section>
+            <section id="cadastro">
+                <h1>Cadastre-se</h1>
+                <label>Nome:<br> <input type="text"> </label><br>
+                <label>Email:<br> <input type="email"> </label><br>
+                <label>Telefone:<br><input type="text"> </label><br>
+                <label>Matricula:<br> <input type="text"> </label><br>
+                <label>Senha: <br><input type="text"> </label><br>
+                <label>Confirme sua senha:<br> <input type="text"> </label><br>
+                <input type="checkbox" onclick="javascript: prof()" > Professor? <br>
+            </section>
+            <section id="prof" class="professor">
+                <label>Abreviação:<br> <input type="text"> </label><br>
+                <label>Ativo:<br> <input type="number"> </label></section>
+            <section id="bcad">
+                <input type="button" onclick="javascript: home_cad()" value="cadastrar">
+
+            </section>
+
+            </section>
+
+            <section id="senha">
+                <h1>Redefinir senha</h1>
+                <label>Nome:<br> <input type="text"> </label><br>
+                <label>Email:<br> <input type="email"> </label><br>
+                <label>Telefone:<br><input type="text"> </label><br>
+                <label>Matricula:<br> <input type="text"> </label><br>
+                <label>Senha: <br><input type="text"> </label><br>
+                <label>Confirme sua senha:<br> <input type="text"> </label><br>
+                <input type="checkbox" onclick="javascript: prof2()" > Professor? <br>
+            </section>
+            <section id="profe" class="professor">
+                <label>Abreviação:<br> <input type="text"> </label><br>
+                <label>Ativo:<br> <input type="number"> </label>
+            </section>
+            <section id="bsen">
+                <input type="button" onclick="javascript: home_sen()" value="Redefinir">
+
+            </section>
+
+            </section>
+
+        </div>
+
+        <footer>
+        
+    </footer>
+
+        
+    </body>
+</html>
